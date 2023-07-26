@@ -54,7 +54,7 @@ services:
         timeout: 60
         runtime: custom-container
         customContainerConfig:
-          image: "https://0sjoe1bm.mirror.aliyuncs.com"
+          image: "https://u6vfrjbb.mirror.aliyuncs.com"
         codeUri: ./
 
 #  next-function: # 第二个函数的案例，仅供参考
