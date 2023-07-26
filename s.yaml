@@ -54,7 +54,7 @@ services:
         timeout: 60
         runtime: custom-container
         customContainerConfig:
-          image: "registry-vpc.cn-hangzhou.aliyuncs.com"
+          image: "registry.cn-hangzhou.aliyuncs.com/psylife/liulong-test"
         codeUri: ./
 
 #  next-function: # 第二个函数的案例，仅供参考
