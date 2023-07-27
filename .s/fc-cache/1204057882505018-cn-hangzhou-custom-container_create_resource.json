@@ -1,0 +1,6 @@
+{
+  "serviceName": "custom-container",
+  "functionNames": [
+    "custom-container/custom-container"
+  ]
+}

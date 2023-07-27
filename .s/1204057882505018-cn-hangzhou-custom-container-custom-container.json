@@ -1,0 +1,52 @@
+{
+  "statefulConfig": {
+    "functionId": "b402e8e1-0b25-4512-8d97-d9a9e32618a7",
+    "functionName": "custom-container",
+    "description": "hello world by serverless devs",
+    "runtime": "custom-container",
+    "handler": "index.handler",
+    "timeout": 60,
+    "initializer": "",
+    "initializationTimeout": 3,
+    "codeSize": 0,
+    "codeChecksum": "",
+    "memorySize": 256,
+    "gpuMemorySize": null,
+    "environmentVariables": {},
+    "createdTime": "2023-07-27T06:32:48Z",
+    "lastModifiedTime": "2023-07-27T06:32:48Z",
+    "instanceConcurrency": 1,
+    "instanceSoftConcurrency": null,
+    "customContainerConfig": {
+      "accelerationInfo": {
+        "status": "Preparing"
+      },
+      "accelerationType": "Default",
+      "args": null,
+      "command": null,
+      "image": "registry.cn-hangzhou.aliyuncs.com/psylife/liulong-ci4-test:v1",
+      "imageAcclConfig": null,
+      "instanceID": null,
+      "serverlessImage": null,
+      "webServerMode": true
+    },
+    "caPort": 9000,
+    "instanceType": "e1",
+    "layers": null,
+    "layersArnV2": null,
+    "instanceLifecycleConfig": {
+      "preFreeze": {
+        "handler": "",
+        "timeout": 3
+      },
+      "preStop": {
+        "handler": "",
+        "timeout": 3
+      }
+    },
+    "customDNS": null,
+    "customRuntimeConfig": null,
+    "customHealthCheckConfig": null,
+    "name": "custom-container"
+  }
+}
