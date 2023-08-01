@@ -6,6 +6,9 @@ services:
     # 配置本机:容器端口映射
     ports:
       - 9000:9000
+    # 挂载当前目录到www目录
+    volumes:
+      - .:/var/www
     # 定义容器名称
     container_name: ci4-test
     restart: always
