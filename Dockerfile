@@ -1,4 +1,4 @@
-FROM php:8.0.21
+FROM ubuntu:20.04
 
 MAINTAINER liulong
 LABEL Version="2023.08.01"
