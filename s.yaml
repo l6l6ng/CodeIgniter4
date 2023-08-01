@@ -55,7 +55,7 @@ services:
         timeout: 60
         runtime: custom-container
         customContainerConfig:
-          image: ${vars.image}
+          image: 'registry.cn-hangzhou.aliyuncs.com/psylife/liulong-ci4-test:v1'
 
 #  next-function: # 第二个函数的案例，仅供参考
 #    # 如果在当前项目下执行 s deploy，会同时部署模块：
