@@ -26,7 +26,7 @@ vars: # 全局变量
   service:
     name: "custom-container-ci4"
     description: 'hello world by serverless devs'
-  image: "registry.cn-hangzhou.aliyuncs.com/psylife/liulong-ci4-test:v1"
+  image: "registry.cn-hangzhou.aliyuncs.com/psylife/liulong-ci4-{$env(CI_ENVIRONMENT)}:v1"
 
 services:
   helloworld: # 业务名称/模块名称
@@ -55,7 +55,7 @@ services:
         timeout: 60
         runtime: custom-container
         customContainerConfig:
-          image: 'registry.cn-hangzhou.aliyuncs.com/psylife/liulong-ci4-test:v1'
+          image: ${vars.image}
       triggers:
         - name: httpTrigger
           type: http
