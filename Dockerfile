@@ -1,4 +1,4 @@
-FROM psylife/psy-php8.0
+FROM registry.cn-hangzhou.aliyuncs.com/psylife/psy-php8.0:v1
 
 WORKDIR /var/www
 COPY . .
